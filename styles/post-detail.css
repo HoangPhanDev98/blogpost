@@ -22,4 +22,9 @@ section.hero {
 .post-detail .post-image {
   width: 100%;
   margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.post-detail .post-image:hover {
+  cursor: pointer;
 }
